@@ -7,6 +7,7 @@ mkdir -p kafka-onprem/config
 cd kafka-onprem
 
 # Install Python dependencies
+#this assumes you have Python and pip installed
 echo "Installing Python dependencies..."
 pip install -r requirements.txt
 
